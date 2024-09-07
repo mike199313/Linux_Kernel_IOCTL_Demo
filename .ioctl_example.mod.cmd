@@ -1,0 +1,1 @@
+cmd_/home/mikec/kernel_driver_developement/ioctl_example.mod := printf '%s\n'   ioctl_example.o | awk '!x[$$0]++ { print("/home/mikec/kernel_driver_developement/"$$0) }' > /home/mikec/kernel_driver_developement/ioctl_example.mod

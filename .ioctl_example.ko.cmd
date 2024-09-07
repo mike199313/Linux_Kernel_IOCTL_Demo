@@ -1,0 +1,1 @@
+cmd_/home/mikec/kernel_driver_developement/ioctl_example.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/mikec/kernel_driver_developement/ioctl_example.ko /home/mikec/kernel_driver_developement/ioctl_example.o /home/mikec/kernel_driver_developement/ioctl_example.mod.o;  true

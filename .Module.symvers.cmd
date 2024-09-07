@@ -1,0 +1,1 @@
+cmd_/home/mikec/kernel_driver_developement/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/mikec/kernel_driver_developement/Module.symvers -T /home/mikec/kernel_driver_developement/modules.order -i Module.symvers -e 
